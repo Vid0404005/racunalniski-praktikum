@@ -47,11 +47,17 @@ background-color: rgb(51, 0, 102, 0.1);
 .slika {
     font-size: 0,9px;
     width: 40%;
+    height: auto;
     text-align: left;
     float: right;
     margin-left: 2em;
+    padding-top: 0,8em;
 }
 .slika img {
     width: 100%;
     height: auto;
-    }
+    border-radius: 50%;
+}
+.slika p:last-child {
+font-size: 0.8em;
+}
